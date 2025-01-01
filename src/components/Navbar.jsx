@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <nav className="navbar animate__animated animate__fadeInUp">
         <div className="navbar-logo">
-          <img src='../images/logo-1.png' alt="Brand Logo" />
+          <img src={`${process.env.PUBLIC_URL}/images/logo-1.png`} alt="Brand Logo" />
         </div>
         <div className="hamburger" onClick={toggleMenu}>
           <div></div>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div></div>
         </div>
         <ul className={`navbar-menu animate__animated animate__fadeIn ${menuActive ? 'active' : ''}`}>
-          <li className="navbar-item"><Link to="/">Home</Link></li>
+          <li className="navbar-item"><Link to="/arch">Home</Link></li>
           <li className="navbar-item dropdown">
             <Link to="#category" className="dropbtn">Category</Link>
             <div className="dropdown-content">

@@ -4,17 +4,17 @@ import '../Styles/Style.css';
 const products = [
   {
     id: 1,
-    image: '../images/img-1.jpg',
+    image: `${process.env.PUBLIC_URL}/images/img-1.jpg`,
     price: '$10.00'
   },
   {
     id: 2,
-    image: '../images/img-2.jpg',
+    image: `${process.env.PUBLIC_URL}/images/img-2.jpg`,
     price: '$20.00'
   },
   {
     id: 3,
-    image: '../images/img-3.jpg',
+    image: `${process.env.PUBLIC_URL}/images/img-3.jpg` ,
     price: '$30.00'
   }
 ];

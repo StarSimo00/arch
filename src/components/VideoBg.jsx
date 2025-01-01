@@ -20,7 +20,7 @@ const VideoBg = () => {
         
         <div className="video-background">
         <video id="video-bg" autoPlay loop muted playsInline preload="auto">
-          <source src='../images/background.mp4' type="video/mp4" />
+          <source src='../images/background_.mp4' type="video/mp4" />
         </video>
         </div>
 

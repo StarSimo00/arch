@@ -22,7 +22,7 @@ const Products = () => {
           description: "Canson Format Raisin (Lot de 10 feuilles) 150g/m²",
           price: 60,
           category: "",
-          images: ["../images/canson.png"]
+          images: [`${process.env.PUBLIC_URL}/images/canson.png`]
         },
         {
           id: "2",
@@ -30,7 +30,7 @@ const Products = () => {
           description: "Paquet Canson A3 (180g/m²) Papier Dessin Blanc",
           price: 40,
           category: "",
-          images: ["../images/cansona3.png"]
+          images: [`${process.env.PUBLIC_URL}/images/cansona3.png`]
         },
         {
           id: "3",
@@ -38,7 +38,7 @@ const Products = () => {
           description: "Mines FABER-CASTEL 0.5mm",
           price: 30,
           category: "",
-          images: ["../images/minesfaber.png"]
+          images: [`${process.env.PUBLIC_URL}/images/minesfaber.png`]
         },
         {
           id: "4",
@@ -46,7 +46,7 @@ const Products = () => {
           description: "Mines FABER-CASTEL 0.35mm",
           price: 30,
           category: "",
-          images: ["../images/mines0.35.png"]
+          images: [`${process.env.PUBLIC_URL}/images/mines0.35.png`]
         },
         {
           id: "5",
@@ -54,7 +54,7 @@ const Products = () => {
           description: "Apollo Mechanical pencil (FABER-CASTEL) 0.5mm",
           price: 30,
           category: "",
-          images: ["../images/pencil0.5.png"]
+          images: [`${process.env.PUBLIC_URL}/images/pencil0.5.png`]
         },
         {
           id: "6",
@@ -62,7 +62,7 @@ const Products = () => {
           description: "Mechanical pencil (FABER-CASTEL) 0.35mm",
           price: 30,
           category: "",
-          images: ["../images/pencil0.35.png"]
+          images: [`${process.env.PUBLIC_URL}/images/pencil0.35.png`]
         },
         {
           id: "7",
@@ -70,7 +70,7 @@ const Products = () => {
           description: "Aquarelle (LEFRANC BOURGEOIS) Etude/Studio",
           price: 190,
           category: "",
-          images: ["../images/aquarelle.png"]
+          images: [`${process.env.PUBLIC_URL}/images/aquarelle.png`]
         },
         {
           id: "8",
@@ -78,7 +78,7 @@ const Products = () => {
           description: "TESA RLX Adhesive Masquage Tape 50x19",
           price: 13,
           category: "",
-          images: ["../images/adhesive.png"]
+          images: [`${process.env.PUBLIC_URL}/images/adhesive.png`]
         },
         {
           id: "9",
@@ -86,7 +86,7 @@ const Products = () => {
           description: "Carton plume 5mm x 50cm x 70cm",
           price: 70,
           category: "",
-          images: ["../images/cartonplume.png"]
+          images: [`${process.env.PUBLIC_URL}/images/cartonplume.png`]
         },
         {
           id: "10",
@@ -94,7 +94,7 @@ const Products = () => {
           description: "Colle Tube UHU Pommade N 13 / 35g",
           price: 16,
           category: "",
-          images: ["../images/uhu.png"]
+          images: [`${process.env.PUBLIC_URL}/images/uhu.png`]
         }
       ]
     };
